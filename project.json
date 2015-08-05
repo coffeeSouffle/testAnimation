@@ -12,6 +12,9 @@
 
     "jsList" : [
         "src/resource.js",
+        "src/BoringBird/BoringBird.js",
+        "src/BoringBird/BBScene.js",
+        "src/Menu.js",
         "src/app.js"
     ]
 }

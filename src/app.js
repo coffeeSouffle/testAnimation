@@ -124,3 +124,13 @@ var ParallaxScene = cc.Scene.extend({
         this.addChild(layerBird);
     }
 });
+
+var MenuScene = cc.Scene.extend({
+    onEnter: function() {
+        this._super();
+
+        var layer = new MenuLayer();
+
+        this.addChild(layer);
+    }
+});

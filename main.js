@@ -62,7 +62,8 @@ cc.game.onStart = function(){
     //load resources
     cc.LoaderScene.preload(g_resources, function () {
         // cc.director.runScene(new HelloWorldScene());
-        cc.director.runScene(new ParallaxScene());
+        // cc.director.runScene(new ParallaxScene());
+        cc.director.runScene(new MenuScene());
     }, this);
 };
 cc.game.run();
